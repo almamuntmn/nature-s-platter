@@ -176,18 +176,55 @@
             </div>
         </div>
     </section>
-    <!-- Get Grocery News! -->
-     <section class="container mx-auto bg-[#EFEBE3] rounded-2xl py-5 px-40 grid grid-cols-2 gap-10 items-center my-20">
-        <div class=""><img src="./assets/grocery-basket.png" alt=""></div>
-        <div class="">
-            <div class="my-3">
-                <h1 class="text-4xl font-semibold">Get Grocery News!</h1>
-            <p class="text-xl">Exclusive training tips, ticks, product deals and more.</p>
+    <div class="relative">
+        <!-- Get Grocery News -->
+        <section
+            class="container mx-auto bg-[#EFEBE3] rounded-2xl py-5 px-40 grid grid-cols-2 gap-10 items-center relative z-10">
+            <div>
+                <img src="./assets/grocery-basket.png" alt="">
             </div>
-            <input class="bg-white py-3 px-5 rounded-lg w-lg" type="email" name="" placeholder="Your Email Here" id=""> <br>
-            <button class="bg-green-500 py-2 px-10 rounded-lg text-white my-3">Subscribe</button>
-        </div>
-     </section>
+            <div>
+                <div class="my-3">
+                    <h1 class="text-4xl font-semibold">Get Grocery News!</h1>
+                    <p class="text-xl">
+                        Exclusive training tips, ticks, product deals and more.
+                    </p>
+                </div>
+                <input class="bg-white py-3 px-5 rounded-lg w-lg" type="email" placeholder="Your Email Here">
+                <br>
+                <button class="bg-green-500 py-2 px-10 rounded-lg text-white my-3">
+                    Subscribe
+                </button>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="bg-green-500 -mt-24 pt-40">
+            <div class="container mx-auto flex justify-between items-center pb-20">
+
+                <div class="w-100">
+                    <img src="./assets/footer-logo.png" alt="">
+                    <p class="text-white">
+                        Discover a world of treats, toys, and essentials handpicked
+                        for your furry friends
+                    </p>
+                </div>
+                <ul class="text-white grid text-lg font-light">
+                    <li>Product</li>
+                    <li>Services</li>
+                    <li>Contact Us</li>
+                </ul>
+                <div>
+                    <p class="text-white my-2">Follow Us</p>
+                    <div class="flex gap-4">
+                        <img class="w-8 brightness-0 invert" src="./assets/facebook-brands-solid-full.svg" alt="">
+                        <img class="w-8 brightness-0 invert" src="./assets/instagram-brands-solid-full.svg" alt="">
+                        <img class="w-8 brightness-0 invert" src="./assets/linkedin-brands-solid-full.svg" alt="">
+                        <img class="w-8 brightness-0 invert" src="./assets/youtube-brands-solid-full.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
